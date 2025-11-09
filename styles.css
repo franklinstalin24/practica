@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.cv-container {
+    display: flex; /* diseño de dos columnas */
+    max-width: 1200px;
+    margin: 40px auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/* columna lateral */
+.sidebar {
+    width: 30%;
+    background-color: #333; /* fondo oscuro */
+    color: white;
+    padding: 30px;
+}
+.sidebar h3 {
+    border-bottom: 2px solid #5a5a5a;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+.sidebar p, .sidebar li {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+/* columna principal */
+.main-content {
+    width: 70%;
+    padding: 30px;
+}
+.main-content h2 {
+    color: #007bff; /* color neutro */
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.job, .educacion {
+    margin-bottom: 25px;
+}
+.empresa, .institucion {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
